@@ -2,9 +2,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-body {
-  margin-top: 250px;
-}
 #title {
   margin-top: 50px;
   text-align: center;

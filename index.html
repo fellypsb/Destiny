@@ -1,9 +1,42 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wght@100..700&display=swap"
+      rel="stylesheet"
+    />
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Destino</title>
+    <script type="text/javascript" src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <div id="container">
+      <div id="title"><h1>Vou revelar seu destino!</h1></div>
+      <div id="box-text">
+        <p>Clique em fazer pergunta para que seu destino seja revelado.</p>
+        <input
+          id="inputPergunta"
+          type="text"
+          placeholder="Digite sua pergunta"
+        />
+        <button id="buttonPerguntar" onclick="fazerPergunta()">
+          Fazer Pergunta
+        </button>
+
+        <h3 id="resposta"></h3>
+      </div>
+    </div>
+  </body>
 </html>

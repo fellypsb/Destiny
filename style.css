@@ -1,13 +1,21 @@
 * {
   margin: 0;
+  font-family: "Andika", sans-serif;
   box-sizing: border-box;
+}
+#container {
+  text-align: center;
+}
+img {
+  margin-top: 54px;
+  width: 500px;
+  max-width: 360px;
 }
 #title {
   margin-top: 50px;
   text-align: center;
 }
 #box-text {
-  font-family: "Andika", sans-serif;
   text-align: center;
   width: 360px;
   max-width: 400px;
@@ -16,13 +24,13 @@
 }
 
 body {
-  background: url(./assets/bg-destiny-eye-m.jfif) no-repeat center/cover;
+  background-color: black;
 }
 
 h1 {
+  color: white;
   margin-top: 40px;
   margin-bottom: 10px;
-  font-family: "kalnia-glaze";
 }
 
 p {
@@ -44,7 +52,7 @@ button {
 }
 
 input {
-  color: blue;
+  color: black;
   margin-bottom: 5px;
 }
 
@@ -62,12 +70,13 @@ button:hover {
 }
 
 #resposta {
+  color: white;
   margin-top: 30px;
-
   transition: opacity 1s;
 }
 
 #resposta div {
+  color: white;
   font-size: 16px;
   font-weight: normal;
   opacity: 0.9;
